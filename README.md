@@ -15,6 +15,8 @@ database : '데이터베이스명은 카페24 아이디와 동일함
 
 Public key 관리에서 공용키 등록하기
 터미널 Git bash 창에서 ssh-keygen -t rsa -C "키명칭으로 본인이메일주소"
+![git005](https://user-images.githubusercontent.com/62067363/162690137-20dc5bcb-8fe4-48dd-80cc-9ece7ac75f1e.jpg)
+
 Enter file in which to save the key (/c/Users/nedry/.ssh/id_rsa) : 공용키 저장경로는 기본경로 그냥 엔터
 Enter passphrase (empty for no passphrase) : 비밀번호도 빈 값으로 그냥 엔터
 동일한 비번 입력하고 한번 더 엔터
