@@ -6,6 +6,8 @@ npm start 로컬에서 확인한 후에
 MySql 외부 IP 접근설정하기
 카페24 서비스 사용현황에서 본인 컴퓨터 ip 등록하기(git 업로드하기전 로컬에서 테스트할 때 사용함)
 https://help.cafe24.com/cs/cs_faq_view.php?idx=240&page=1&mode=&s_value=&faq_list=35&categoryIdx=35&select_os=&contentNum=20
+
+
 db.js 파일에서
 host : '도메인(예:ysbkey.cafe24app.com)',
 user : '카페24 아이디',
