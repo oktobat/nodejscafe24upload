@@ -23,7 +23,7 @@ database : '데이터베이스명은 카페24 아이디와 동일함
 1. .ssh 폴더에서 .pub 파일을 메모장에서 열어서 보이는 코드를 전부 복사
 2. 카페24 public key 관리에서 공개키 등록
 3. 앱생성관리에서 key 할당
-![git005](https://user-images.githubusercontent.com/62067363/162690137-20dc5bcb-8fe4-48dd-80cc-9ece7ac75f1e.jpg)
+4. ![git005](https://user-images.githubusercontent.com/62067363/162690137-20dc5bcb-8fe4-48dd-80cc-9ece7ac75f1e.jpg)
 
 
 깃(git) 통해 소스코드 업로드하기
