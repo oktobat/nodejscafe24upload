@@ -17,13 +17,13 @@ database : '데이터베이스명은 카페24 아이디와 동일함
 로컬에서 카페24 mysql 서버 사용할 수 있음
 
 카페24 앱을 생성한 후에 publick key 연결하기
-0. vsc 터미널 bash 창에서 ssh-keygen -t rsa -C '이메일주소'
-    Enter file in which to save the key (/c/Users/nedry/.ssh/id_rsa) : 공용키 저장경로는 기본경로 그냥 엔터
-    Enter passphrase (empty for no passphrase) : 데이터베이스 비밀번호
-1. .ssh 폴더에서 .pub 파일을 메모장에서 열어서 보이는 코드를 전부 복사
-2. 카페24 public key 관리에서 공개키 등록
-3. 앱생성관리에서 key 할당
-4. ![git005](https://user-images.githubusercontent.com/62067363/162690137-20dc5bcb-8fe4-48dd-80cc-9ece7ac75f1e.jpg)
+1. vsc 터미널 bash 창에서 ssh-keygen -t rsa -C '이메일주소'
+2. Enter file in which to save the key (/c/Users/nedry/.ssh/id_rsa) : 공용키 저장경로는 기본경로 그냥 엔터
+3. Enter passphrase (empty for no passphrase) : 데이터베이스 비밀번호
+4. .ssh 폴더에서 .pub 파일을 메모장에서 열어서 보이는 코드를 전부 복사
+5. 카페24 public key 관리에서 공개키 등록
+6. 앱생성관리에서 key 할당
+7. ![git005](https://user-images.githubusercontent.com/62067363/162690137-20dc5bcb-8fe4-48dd-80cc-9ece7ac75f1e.jpg)
 
 
 깃(git) 통해 소스코드 업로드하기
@@ -33,15 +33,15 @@ database : '데이터베이스명은 카페24 아이디와 동일함
 PORT 번호는 카페24 앱생성관리에서 확인한 번호로 수정할 것
 
 vsc 터미널창에서 git bash 화면에서 업로드하기
-0. 프로젝트 폴더로 이동
-1. git init (코드를 수정할때는 .git 폴더를 삭제한 후에)
-2. git add .
-3. git commit -m '커밋메세지'
-4. git remote add 저장소별칭(영어) 카페24git저장소명(예 oktobat1235@ysbkey.cafe24app.com:oktobat1235_ysbkey )
-5. git remote -v 로 연결확인
-6. git remote show 로 저장소명 확인
-7. git push 저장소명 +master 또는 +main
-8. 카페24 앱생성관리에서 앱 실행을 중지한 후 다시 실행
+1. 프로젝트 폴더로 이동
+2. git init (코드를 수정할때는 .git 폴더를 삭제한 후에)
+3. git add .
+4. git commit -m '커밋메세지'
+5. git remote add 저장소별칭(영어) 카페24git저장소명(예 oktobat1235@ysbkey.cafe24app.com:oktobat1235_ysbkey )
+6. git remote -v 로 연결확인
+7. git remote show 로 저장소명 확인
+8. git push 저장소명 +master 또는 +main
+9. 카페24 앱생성관리에서 앱 실행을 중지한 후 다시 실행
 
 
 
