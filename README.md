@@ -42,7 +42,7 @@ vsc 터미널창에서 git bash 화면에서 업로드하기
 7. git remote show 로 저장소명 확인
 8. git push 저장소명 +master 또는 +main
 9. 카페24 앱생성관리에서 앱 실행을 중지한 후 다시 실행
-10. ![20220118_192342](https://user-images.githubusercontent.com/62067363/163142361-c1f62924-fd0a-4aeb-9c13-b62802389ed9.png)
+
 
 
 
