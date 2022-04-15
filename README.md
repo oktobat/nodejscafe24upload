@@ -1,7 +1,7 @@
 # nodejscafe24upload
 
 # link define
-http://ysbkey.cafe24app.com/ (  <br>
+http://ysbkey.cafe24app.com/ (Ctrl+클릭하면 새창에서 열립니다.)  <br>
 
 
 npm install
