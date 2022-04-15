@@ -1,7 +1,7 @@
 # nodejscafe24upload
 
 # link define
-[노드js 프로젝트] : http://ysbkey.cafe24app.com/   <br>
+[노드js 프로젝트] : <http://ysbkey.cafe24app.com/>{: target="_blank"}   <br>
 
 
 npm install
